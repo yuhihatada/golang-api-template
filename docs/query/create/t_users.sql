@@ -1,0 +1,6 @@
+CREATE TABLE t_users(
+    id SERIAL NOT NULL UNIQUE,
+    name TEXT NOT NULL,
+    mail TEXT NOT NULL UNIQUE,
+    PRIMARY KEY(id)
+);
