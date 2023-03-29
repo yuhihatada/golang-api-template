@@ -120,7 +120,7 @@ You can delete user.
 
 #### path
 
-DELETE: `/user/delete/{user_id}`
+DELETE: `/user/delete/{user_id}`  
 ({user_id} is user identifier number)
 
 #### request param
