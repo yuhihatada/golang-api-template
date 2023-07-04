@@ -7,6 +7,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
+	_ "github.com/lib/pq"
 
 	"golang-api-template/configs/db_connect"
 	user_add "golang-api-template/internal/app/user/add"
